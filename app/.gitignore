@@ -1,0 +1,45 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.pub/
+
+# Dependency lock file (you can decide: commit if you want lock versions pinned, ignore if not)
+# pubspec.lock (for libraries, usually commit for apps)
+
+# IDE related
+.idea/
+.vscode/
+*.iml
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Android related
+android/.gradle/
+android/app/build/
+android/local.properties
+**/GeneratedPluginRegistrant.java
+
+# iOS/macOS related
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Windows related
+windows/flutter/ephemeral/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Others
+coverage/
